@@ -33,7 +33,7 @@ public class Default extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_default__horizontal);
+        setContentView(R.layout.activity_default);
         nomeLista= (TextView) findViewById(R.id.default_lblNomeLista);
         Bundle receber=getIntent().getExtras();
         nomeLista.setText(receber.getString("nomeLista"));

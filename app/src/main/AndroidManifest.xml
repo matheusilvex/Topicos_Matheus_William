@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Default" />
-        <activity android:name=".Default_Horizontal"></activity>
+        <activity android:name=".Horizontal"></activity>
     </application>
 
 </manifest>
