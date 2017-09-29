@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="listadecompras.listadecompras.Inicial">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="109dp"
+        android:fontFamily="casual"
+        android:text="LISTA DE COMPRAS"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inicial_txtNomeLista"
+        android:layout_width="271dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="223dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="DIGITE O NOME DA LISTA"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inicial_btnIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="326dp"
+        android:fontFamily="monospace"
+        android:lineSpacingExtra="8sp"
+        android:text="INICIAR"
+        android:textAlignment="center"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
